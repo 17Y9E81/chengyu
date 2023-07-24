@@ -1,0 +1,134 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.15.0",
+  "appid": "wxe9957c1687027a81",
+  "projectname": "app-shop",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "分类页面",
+          "pathName": "pages/category/index",
+          "query": "id= '89353'",
+          "scene": null
+        },
+        {
+          "name": "列表页面",
+          "pathName": "pages/goods_list/index",
+          "query": "cid=5",
+          "scene": null
+        },
+        {
+          "name": "商品详情",
+          "pathName": "pages/goods_detail/index",
+          "query": "id= 266976",
+          "scene": null
+        },
+        {
+          "name": "购物车页面",
+          "pathName": "pages/cart/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "支付页面",
+          "pathName": "pages/pay/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "授权",
+          "pathName": "pages/auth/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "个人中心",
+          "pathName": "pages/user/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "订单查询",
+          "pathName": "pages/order/index",
+          "query": "type=1",
+          "scene": null
+        },
+        {
+          "name": "收藏商品",
+          "pathName": "pages/collect/index",
+          "query": "type=1",
+          "scene": null
+        },
+        {
+          "name": "搜索",
+          "pathName": "pages/search/index",
+          "query": "type=1",
+          "scene": null
+        },
+        {
+          "name": "意见反馈",
+          "pathName": "pages/feedback/index",
+          "query": "type=1",
+          "scene": null
+        },
+        {
+          "name": "添加地址",
+          "pathName": "pages/address-add/index",
+          "query": "id= 266976",
+          "scene": null
+        },
+        {
+          "name": "选择收获地址",
+          "pathName": "pages/select-address/index",
+          "query": "id= 266976",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "id=123",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}
